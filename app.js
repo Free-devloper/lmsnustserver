@@ -50,7 +50,7 @@ app.use('/upload', upload);
 
 
 // mongoose
-mongoose.connect('mongodb://lmsnustapp:n4RbhO2lDPWa0YVkGDkZqNis4WG7vsNKvMmRsegi7KUDDB6eE5KdA9ec9NYJo2OmpVSKskgx312cdSXwERvdVQ==@lmsnustapp.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@lmsnustapp@');
+mongoose.connect('mongodb://lmsnustdb:NSUmUErZlq2554IhNtiNeBv46MJnGJOuWnPIix0C4q6WzyGcmVd6t6gGcclMHlUZo80b0einsmPYEhUXrBOVRA==@lmsnustdb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&maxIdleTimeMS=120000&appName=@lmsnustdb@');
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
